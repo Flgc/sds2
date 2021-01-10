@@ -25,6 +25,3 @@ debug.log*
 
 .eslintcache
 .env
-
-### VS Code ###
-.vscode/

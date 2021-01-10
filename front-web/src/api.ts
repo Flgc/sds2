@@ -1,7 +1,7 @@
 import axios from "axios";
 import { OrderPayLoad } from "./Orders/types";
 
-const API_URL = 'http://localhost:8080'
+const API_URL = 'https://sds2-flgc.herokuapp.com'
 const mapboxToken = process.env.REACT_APP_ACCESS_TOKEN_MAP_BOX;
 
 export function fetchProducts(){
