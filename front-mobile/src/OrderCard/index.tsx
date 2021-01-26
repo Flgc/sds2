@@ -10,6 +10,11 @@ function OrderCard() {
             <Text style={styles.orderPrice}>R$ 50,00</Text>
          </View>
          <Text style={styles.text}>Há 30min</Text>
+         <View style={styles.productsList}>
+            <Text style={styles.text}>Pizza Calabresa</Text>
+            <Text style={styles.text}>Pizza Quatro Queijos</Text>
+            <Text style={styles.text}>Pizza Marguerita</Text>
+         </View>
       </View>
    );
 }
