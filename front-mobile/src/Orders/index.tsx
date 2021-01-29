@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { StyleSheet, ScrollView, Alert } from 'react-native';
+import { TouchableWithoutFeedback } from 'react-native-gesture-handler';
 import { fetchOrders } from '../api'
 import Header from '../Header'
 import OrderCard from '../OrderCard'
@@ -18,10 +19,12 @@ function Orders() {
       <>
          <Header />
          <ScrollView style={styles.container}>
-            <OrderCard />
-            <OrderCard />
-            <OrderCard />
-            <OrderCard />
+            {orders.map(order => (
+               <TouchableWithoutFeedback key={order.id}>
+                  <OrderCard order={order} />
+               </TouchableWithoutFeedback>
+            ))}
+
          </ScrollView>
       </>
    );
