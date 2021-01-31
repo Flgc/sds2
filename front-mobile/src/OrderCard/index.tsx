@@ -1,9 +1,19 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 import { Order } from '../types';
+import dayjs from 'dayjs';
+import 'dayjs/locale/pt-br';
+import relativeTime from 'dayjs/plugin/relativeTime';
+
+dayjs.locale('pt-br');
+dayjs.extend(relativeTime);
 
 type Props = {
    order: Order;
+}
+
+function dateFromNow(date: string) {
+   return dayjs(date).fromNow();
 }
 
 function OrderCard({ order }: Props) {
@@ -13,7 +23,7 @@ function OrderCard({ order }: Props) {
             <Text style={styles.orderName}>Pedido {order.id}</Text>
             <Text style={styles.orderPrice}>R$ {order.total}</Text>
          </View>
-         <Text style={styles.text}>{order.moment}</Text>
+         <Text style={styles.text}>{dateFromNow(order.moment)}</Text>
          <View style={styles.productsList}>
             {order.products.map(product => (
                <Text key={product.id} style={styles.text}>{product.name}</Text>
