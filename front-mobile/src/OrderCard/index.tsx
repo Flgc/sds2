@@ -4,7 +4,16 @@ import { Order } from '../types';
 import dayjs from 'dayjs';
 import 'dayjs/locale/pt-br';
 import relativeTime from 'dayjs/plugin/relativeTime';
+import 'Intl';
+import 'Intl/locale-date';
+import "intl/locale-data/jsonp/pt-BR.js";
+import { Platform } from "react-native";
 
+if (Platform.OS === "android") {
+   if (typeof (Intl as any).disableRegExpRestore === "function") {
+      (Intl as any).disableRegExpRestore();
+   }
+}
 dayjs.locale('pt-br');
 dayjs.extend(relativeTime);
 
@@ -15,15 +24,6 @@ type Props = {
 function dateFromNow(date: string) {
    return dayjs(date).fromNow();
 }
-
-/*Apresenta erro ao implementar
-   order.total
-   {formatPrince(order.total)}
-
-   Video 4
-   Parou em 01:45:20 (Error format prince)
-
-*/
 
 export function formatPrince(price: number) {
    const formatter = new Intl.NumberFormat('pt-BR', {
@@ -40,7 +40,7 @@ function OrderCard({ order }: Props) {
       <View style={styles.container} >
          <View style={styles.header}>
             <Text style={styles.orderName}>Pedido {order.id}</Text>
-            <Text style={styles.orderPrice}>{order.total}</Text>
+            <Text style={styles.orderPrice}>{formatPrince(order.total)}</Text>
          </View>
          <Text style={styles.text}>{dateFromNow(order.moment)}</Text>
          <View style={styles.productsList}>
