@@ -10,3 +10,8 @@ export function confirmDelivery(orderId: number){
    return axios.put(`${API_URL}/orders/${orderId}/delivered`);
 }
 
+export function deleteDelivery(orderId: number){
+   return axios.delete(`${API_URL}/orders/${orderId}/delivered`);
+}
+
+

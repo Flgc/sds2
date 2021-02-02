@@ -5,7 +5,7 @@ import Header from '../Header';
 import { Order } from '../types';
 import OrderCard from '../OrderCard';
 import { RectButton } from 'react-native-gesture-handler';
-import { confirmDelivery } from '../api';
+import { confirmDelivery, deleteDelivery } from '../api';
 
 type Props = {
    route: {
@@ -38,6 +38,17 @@ function OrderDetails({ route }: Props) {
       Linking.openURL(`https://www.google.com/maps/dir/?api=1&travelmode=driving&dir_action=navigate&destination=${order.latitude},${order.longitude}`);
    }
 
+   const handleDeleteDelivery = () => {
+      deleteDelivery(order.id)
+         .then(() => {
+            Alert.alert(`Pedido ${order.id} excluido com sucesso!`);
+            navigation.navigate('Orders')
+         })
+         .catch(() => {
+            Alert.alert(`Houve um erro ao tentar excluir o pedido ${order.id}`);
+         })
+   }
+
    return (
       <>
          <Header />
@@ -50,7 +61,10 @@ function OrderDetails({ route }: Props) {
                <Text style={styles.buttonText}>CONFIRMAR ENTREGA</Text>
             </RectButton>
             <RectButton style={styles.button} onPress={handleOnCancel}>
-               <Text style={styles.buttonText}>CANCELAR</Text>
+               <Text style={styles.buttonText}>RETORNAR</Text>
+            </RectButton>
+            <RectButton style={styles.button} onPress={handleDeleteDelivery}>
+               <Text style={styles.buttonText}>EXCLUIR PEDIDO</Text>
             </RectButton>
          </View>
       </>
@@ -66,7 +80,7 @@ const styles = StyleSheet.create({
       backgroundColor: '#DA5C5C',
       flexDirection: 'row',
       borderRadius: 10,
-      marginTop: 40,
+      marginTop: 30,
       alignItems: 'center',
       justifyContent: 'center'
    },
