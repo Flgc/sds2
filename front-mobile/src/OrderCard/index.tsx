@@ -16,7 +16,15 @@ function dateFromNow(date: string) {
    return dayjs(date).fromNow();
 }
 
-/*Apresenta erro ao implementar*/
+/*Apresenta erro ao implementar
+   order.total
+   {formatPrince(order.total)}
+
+   Video 4
+   Parou em 01:45:20 (Error format prince)
+
+*/
+
 export function formatPrince(price: number) {
    const formatter = new Intl.NumberFormat('pt-BR', {
       style: 'currency',
