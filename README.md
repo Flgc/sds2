@@ -82,11 +82,11 @@ O principal requisito funcional que foi solicitado no evento foi "o usuario pedi
 
 ![Web 1](https://github.com/Flgc/sds2/blob/main/assets/web.png)
 
-## 📟 Modelo conceitual
+## 🌎 Modelo conceitual
 
 ![Modelo Conceitual](https://github.com/Flgc/sds2/blob/main/assets/modelo-conceitual.png)
 
-## Modelo em camadas
+## 🌎 Modelo em camadas
 
 ![Modelo Camadas](https://github.com/Flgc/sds2/blob/main/assets/camadas.png)
 
