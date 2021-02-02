@@ -24,20 +24,20 @@
 
 <div align="center">
 
-[**Sobre**](https://github.com/Flgc/sds2/blob/main/README.md#sobre-o-projeto) &nbsp;&nbsp;**|**&nbsp;&nbsp;
-[**Features**](#-features) &nbsp;&nbsp;**|**&nbsp;&nbsp;
-[**Demonstração**](#-demonstração-web) &nbsp;&nbsp;**|**&nbsp;&nbsp;
-[**Layout Mobile**](#-layout-mobile) &nbsp;&nbsp;**|**&nbsp;&nbsp;
-[**Layout Web**](#-layout-web) &nbsp;&nbsp;**|**&nbsp;&nbsp;
-[**Modelo Conceitual**](#-modelo-conceitual) &nbsp;&nbsp;**|**&nbsp;&nbsp;
-[**Modelo em Camadas**](#-modelo-em-camadas) &nbsp;&nbsp;**|**&nbsp;&nbsp;
-[**Tecnologias utilizadas**](#-tecnologias-utilizadas) &nbsp;&nbsp;**|**&nbsp;&nbsp;
-[**Como instalar e executar o projeto**](#-como-instalar-e-executar-o-projeto) &nbsp;&nbsp;**|**&nbsp;&nbsp;
-[**Contato**](#-Contato) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Sobre**](https://github.com/Flgc/sds2#sobre-o-projeto) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Features**](https://github.com/Flgc/sds2#features) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Demonstração**](https://github.com/Flgc/sds2#demonstra%C3%A7%C3%A3o-web) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Layout Mobile**](https://github.com/Flgc/sds2#layout-mobile) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Layout Web**](https://github.com/Flgc/sds2#layout-web) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Modelo Conceitual**](https://github.com/Flgc/sds2#modelo-conceitual) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Modelo em Camadas**](https://github.com/Flgc/sds2#modelo-em-camadas) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Tecnologias utilizadas**](https://github.com/Flgc/sds2#tecnologias-utilizadas) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Como instalar e executar o projeto**](https://github.com/Flgc/sds2#como-instalar-e-executar-o-projeto) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Contato**](https://github.com/Flgc/sds2#contato) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 
 </div><br><br>
 
-## Sobre o projeto
+## 📃 Sobre o projeto
 
 https://sds2-flgc.netlify.app/
 
@@ -88,7 +88,7 @@ O principal requisito funcional que foi solicitado no evento foi "o usuario pedi
 
 ## Modelo em camadas
 
-![Modelo Camadas](https://github.com/Flgc/sds2/blob/main/assets/modelo-conceitual.png)
+![Modelo Camadas](https://github.com/Flgc/sds2/blob/main/assets/camadas.png)
 
 # Tecnologias utilizadas
 
