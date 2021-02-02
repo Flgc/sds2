@@ -37,7 +37,7 @@
 
 </div><br><br>
 
-## Sobre o projeto
+## 📃 Sobre o projeto
 
 https://sds2-flgc.netlify.app/
 
