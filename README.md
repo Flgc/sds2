@@ -24,7 +24,7 @@
 
 <div align="center">
 
-[**Sobre**](#-sobre-o-projeto) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Sobre**](https://github.com/Flgc/sds2/blob/main/README.md#sobre-o-projeto) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 [**Features**](#-features) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 [**Demonstração**](#-demonstração-web) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 [**Layout Mobile**](#-layout-mobile) &nbsp;&nbsp;**|**&nbsp;&nbsp;
