@@ -30,6 +30,7 @@
 [**Layout Mobile**](#-layout-mobile) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 [**Layout Web**](#-layout-web) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 [**Modelo Conceitual**](#-modelo-conceitual) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Modelo em Camadas**](#-modelo-em-camadas) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 [**Tecnologias utilizadas**](#-tecnologias-utilizadas) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 [**Como instalar e executar o projeto**](#-como-instalar-e-executar-o-projeto) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 [**Contato**](#-Contato) &nbsp;&nbsp;**|**&nbsp;&nbsp;
@@ -84,6 +85,10 @@ O principal requisito funcional que foi solicitado no evento foi "o usuario pedi
 ## Modelo conceitual
 
 ![Modelo Conceitual](https://github.com/Flgc/sds2/blob/main/assets/modelo-conceitual.png)
+
+## Modelo em camadas
+
+![Modelo Camadas](https://github.com/Flgc/sds2/blob/main/assets/modelo-conceitual.png)
 
 # Tecnologias utilizadas
 
