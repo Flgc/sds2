@@ -83,7 +83,7 @@ O principal requisito funcional que foi solicitado no evento foi "o usuario pedi
 
 ## Modelo conceitual
 
-![Modelo Conceitual](https://github.com/Flgc/Assets/blob/main/sds2/modelo-conceitual.png)
+![Modelo Conceitual](https://github.com/Flgc/sds2/blob/main/assets/modelo-conceitual.png)
 
 # Tecnologias utilizadas
 
