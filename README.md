@@ -70,7 +70,7 @@ O principal requisito funcional que foi solicitado no evento foi "o usuario pedi
 
 <br>
 <h1>
-<img src="media/video.gif">
+<img src="media/video1.gif">
 </h1><br>
 
 ## Layout mobile
