@@ -46,7 +46,7 @@ https://sds2-flgc.netlify.app/
 O principal requisito funcional que foi solicitado no evento foi "o usuario pedir o produto na web, e o entregador receber o pedido via aplicativo mobile.
 <br><br>
 
-## Features
+## ✨ Features
 
 ✔ Listagem de produtos via API (backend), hospedada no Heroku
 
@@ -67,22 +67,22 @@ O principal requisito funcional que foi solicitado no evento foi "o usuario pedi
 ✔ Criação de rotas de navegação GPS - app mobile (em desenvolvimento)
 <br><br>
 
-## Demonstração Web
+## 🌎 Demonstração Web
 
 <br>
 <h1>
 <img src="media/video2.gif">
 </h1><br>
 
-## Layout mobile
+## 📟 Layout mobile
 
 ![Mobile 1](https://github.com/Flgc/sds2/blob/main/assets/mobile.png)
 
-## Layout web
+## 📟 Layout web
 
 ![Web 1](https://github.com/Flgc/sds2/blob/main/assets/web.png)
 
-## Modelo conceitual
+## 📟 Modelo conceitual
 
 ![Modelo Conceitual](https://github.com/Flgc/sds2/blob/main/assets/modelo-conceitual.png)
 
@@ -90,7 +90,7 @@ O principal requisito funcional que foi solicitado no evento foi "o usuario pedi
 
 ![Modelo Camadas](https://github.com/Flgc/sds2/blob/main/assets/camadas.png)
 
-# Tecnologias utilizadas
+# 🚀 Tecnologias utilizadas
 
 ## Back end
 
@@ -119,7 +119,7 @@ O principal requisito funcional que foi solicitado no evento foi "o usuario pedi
 - Banco de dados: Postgresql
   <br><br>
 
-# Como instalar e executar o projeto
+# 🔧 Como instalar e executar o projeto
 
 ## Back end
 
@@ -172,7 +172,7 @@ npm install ou yarn install
 npm start ou yarn start
 ```
 
-# Contato
+# 📲 Contato
 
 Fabio Luis Guia da Conceição
 
