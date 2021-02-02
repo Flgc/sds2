@@ -81,6 +81,9 @@ O principal requisito funcional que foi solicitado no evento foi "o usuario pedi
 
 ## Layout web
 
+
+![Web 1](https://github.com/Flgc/Assets/blob/main/sds1/web1.png)
+
 <br>
 ![Web 1](https://github.com/Flgc/sds2/blob/main/assets/web.png)
 <br><br>
