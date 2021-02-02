@@ -24,7 +24,7 @@
 
 <div align="center">
 
-[**Sobre**](https://github.com/Flgc/sds2#sobre-o-projeto) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Sobre**](https://github.com/Flgc/sds2#-sobre-o-projeto) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 [**Features**](https://github.com/Flgc/sds2#features) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 [**Demonstração**](https://github.com/Flgc/sds2#demonstra%C3%A7%C3%A3o-web) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 [**Layout Mobile**](https://github.com/Flgc/sds2#layout-mobile) &nbsp;&nbsp;**|**&nbsp;&nbsp;
