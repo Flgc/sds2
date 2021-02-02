@@ -75,7 +75,7 @@ O principal requisito funcional que foi solicitado no evento foi "o usuario pedi
 
 ## Layout mobile
 
-![Mobile 1](https://github.com/Flgc/Assets/blob/main/sds2/mobile.png)
+![Mobile 1](https://github.com/Flgc/sds2/blob/main/assets/mobile.png)
 
 ## Layout web
 
