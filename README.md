@@ -75,9 +75,7 @@ O principal requisito funcional que foi solicitado no evento foi "o usuario pedi
 
 ## Layout mobile
 
-<br>
 ![Mobile 1](https://github.com/Flgc/Assets/blob/main/sds2/mobile.png)
-<br><br>
 
 ## Layout web
 
@@ -85,9 +83,7 @@ O principal requisito funcional que foi solicitado no evento foi "o usuario pedi
 
 ## Modelo conceitual
 
-<br>
 ![Modelo Conceitual](https://github.com/Flgc/Assets/blob/main/sds2/modelo-conceitual.png)
-<br><br>
 
 # Tecnologias utilizadas
 
