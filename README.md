@@ -70,7 +70,7 @@ O principal requisito funcional que foi solicitado no evento foi "o usuario pedi
 
 <br>
 <h1>
-<img src="media/video1.gif">
+<img src="media/video2.gif">
 </h1><br>
 
 ## Layout mobile
@@ -82,7 +82,7 @@ O principal requisito funcional que foi solicitado no evento foi "o usuario pedi
 ## Layout web
 
 <br>
-![Web 1](https://github.com/Flgc/Assets/blob/main/sds2/web.png)
+![Web 1](https://github.com/Flgc/sds2/blob/main/assets/web.png)
 <br><br>
 
 ## Modelo conceitual
